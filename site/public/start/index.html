@@ -70,5 +70,17 @@
   </ul>
   <p class="fine">Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. &copy; 2026 Curio &amp; Cove</p>
 </footer>
+<!-- kit-ajax --><script>
+document.querySelectorAll('form[action*="app.kit.com/forms/"]').forEach(function(f){
+  f.addEventListener('submit',function(e){
+    if(f.dataset.native)return; e.preventDefault();
+    var b=f.querySelector('button'); if(b){b.disabled=true;b.textContent='Sending...';}
+    fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
+      .then(function(r){return r.json();})
+      .then(function(d){ if(d&&d.status==='success'){location.href='/thank-you/';} else {throw 0;} })
+      .catch(function(){ f.dataset.native=1; f.submit(); });
+  });
+});
+</script>
 </body>
 </html>

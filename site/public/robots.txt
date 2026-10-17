@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /freebies/
+Allow: /
+
+Sitemap: https://curioandcove.com/sitemap.xml

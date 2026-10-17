@@ -1,0 +1,62 @@
+[
+ {
+  "n": 1,
+  "at": "2026-10-21T21:00:00+03:00",
+  "image": "pin-rome-01-3days.png",
+  "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lotrome/pin-rome-01-3days.png",
+  "board_id": "1094023003171921131",
+  "title": "3 Days in Rome: The Perfect First-Timer's Itinerary",
+  "description": "Day 1: Colosseum, Roman Forum and dinner in Monti. Day 2: Vatican Museums, St Peter's and Trastevere. Day 3: Pantheon, Piazza Navona, Trevi Fountain and sunset at the Pincio. #rome #romeitinerary #italytravel",
+  "link": "https://curioandcove.com/3-days-in-rome-itinerary/",
+  "alt": "Teal pin with a three-day Rome itinerary, one row per day",
+  "status": "pending"
+ },
+ {
+  "n": 2,
+  "at": "2026-10-22T00:30:00+03:00",
+  "image": "pin-delay-faq-3h.png",
+  "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lotrome/pin-delay-faq-3h.png",
+  "board_id": "1094023003171921131",
+  "title": "How Late Does a Flight Have to Be for Compensation?",
+  "description": "Under EU261 you can claim when you reach your final destination 3 hours or more late. Compensation is €250 to €600 per passenger, depending on distance. #flightdelay #eu261 #travelrights",
+  "link": "https://curioandcove.com/eu-flight-delay-compensation-americans/",
+  "alt": "Dark pin with a clock: how late a flight must be before you are owed compensation",
+  "status": "pending"
+ },
+ {
+  "n": 3,
+  "at": "2026-10-22T03:30:00+03:00",
+  "image": "pin-rome-02-book.png",
+  "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lotrome/pin-rome-02-book.png",
+  "board_id": "1094023003171921131",
+  "title": "Book These 4 Things Before Your Trip to Rome",
+  "description": "Timed tickets for the Colosseum and Roman Forum, Vatican Museums entry (closed most Sundays), the Borghese Gallery and a central stay with free cancellation. #romeitaly #italytrip #travelplanning",
+  "link": "https://curioandcove.com/3-days-in-rome-itinerary/",
+  "alt": "Numbered pin listing four things to book before visiting Rome",
+  "status": "pending"
+ },
+ {
+  "n": 4,
+  "at": "2026-10-22T06:00:00+03:00",
+  "image": "pin-delay-faq-us.png",
+  "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lotrome/pin-delay-faq-us.png",
+  "board_id": "1094023003171921131",
+  "title": "Flying a US Airline? Are You Covered by EU261?",
+  "description": "Flights leaving the EU are covered on any airline, including Delta, United and American. Flights into the EU are covered only on EU-based airlines. #eu261 #flightcompensation #traveltips",
+  "link": "https://curioandcove.com/eu-flight-delay-compensation-americans/",
+  "alt": "Cream pin explaining which flights on US airlines are covered by EU261",
+  "status": "pending"
+ },
+ {
+  "n": 5,
+  "at": "2026-10-22T09:00:00+03:00",
+  "image": "pin-rome-03-fees.png",
+  "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lotrome/pin-rome-03-fees.png",
+  "board_id": "1094023003171921131",
+  "title": "Rome's New Tourist Fees for 2026",
+  "description": "Going down to the Trevi Fountain basin now costs €2 and the Pantheon is €7. Here's what's still free and a 3-day itinerary that plans around the new fees. #rome2026 #romeitaly #europetravel",
+  "link": "https://curioandcove.com/3-days-in-rome-itinerary/",
+  "alt": "Cream pin with a calendar icon: Rome's new tourist fees for 2026",
+  "status": "pending"
+ }
+]

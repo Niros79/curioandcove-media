@@ -152,9 +152,11 @@
     "description": "Public Wi-Fi at hotels, airports and cafés is convenient but open. Here is when a travel VPN genuinely helps, when you don't need one, and how to set it up before your trip. #traveltips #travelsecurity #publicwifi",
     "link": "https://curioandcove.com/do-you-need-a-vpn-when-you-travel/",
     "alt": "Dark teal pin with a Wi-Fi icon and the title \"Is Hotel & Airport Wi-Fi Safe?\"",
-    "status": "pending",
+    "status": "published",
     "at": "2026-10-18T18:00:00+03:00",
-    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-01-vpn-hotel-wifi.png"
+    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-01-vpn-hotel-wifi.png",
+    "pin_id": "1094022934516335379",
+    "published_at": "2026-10-18T14:56:37Z"
   },
   {
     "n": 11,

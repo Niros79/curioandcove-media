@@ -216,9 +216,11 @@
     "description": "About a month before your trip: buy travel insurance, book the tours and tickets that sell out, and reserve your rental car or train tickets. The full checklist covers every stage. #travelplanning #travelchecklist #vacationplanning",
     "link": "https://curioandcove.com/trip-planning-checklist/",
     "alt": "Cream pin with a calendar icon and the title \"Do These 3 Things a Month Before You Travel\"",
-    "status": "pending",
+    "status": "published",
     "at": "2026-10-19T06:00:00+03:00",
-    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-08-checklist-1-month.png"
+    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-08-checklist-1-month.png",
+    "pin_id": "1094022934516385764",
+    "published_at": "2026-10-19T02:56:22Z"
   },
   {
     "n": 15,

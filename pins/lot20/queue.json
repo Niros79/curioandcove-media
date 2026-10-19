@@ -312,8 +312,10 @@
     "description": "Check in online, keep medication, chargers and documents in your carry-on, pack a change of clothes, arrive early and keep your boarding pass until you're home. #traveltips #packingtips #airporttips",
     "link": "https://curioandcove.com/trip-planning-checklist/",
     "alt": "Numbered travel day checklist pin with five steps",
-    "status": "pending",
+    "status": "published",
     "at": "2026-10-20T00:30:00+03:00",
-    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-09-travel-day.png"
+    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-09-travel-day.png",
+    "pin_id": "1094022934516453848",
+    "published_at": "2026-10-20T00:25:59+03:00"
   }
 ]

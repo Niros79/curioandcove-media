@@ -248,9 +248,11 @@
     "description": "Do you need a VPN abroad? It helps on public Wi-Fi, when your banking app blocks foreign logins, to keep your usual sites working and when you work remotely. Our honest guide explains the rest. #traveltips #vpn #digitalnomad",
     "link": "https://curioandcove.com/do-you-need-a-vpn-when-you-travel/",
     "alt": "Numbered list pin: four situations where a VPN helps abroad",
-    "status": "pending",
+    "status": "published",
     "at": "2026-10-19T12:00:00+03:00",
-    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-03-vpn-4-times.png"
+    "image_url": "https://raw.githubusercontent.com/Niros79/curioandcove-media/main/pins/lot20/pin-03-vpn-4-times.png",
+    "pin_id": "1094022934516402604",
+    "published_at": "2026-10-19T11:56:45+03:00"
   },
   {
     "n": 17,

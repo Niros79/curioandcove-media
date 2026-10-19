@@ -32,6 +32,7 @@ KEYWORDS → MY GUIDES
 - city passes worth it → https://curioandcove.com/are-city-passes-worth-it/
 - Rome itinerary, 3 days in Rome → https://curioandcove.com/3-days-in-rome-itinerary/
 - gifts for travelers → https://curioandcove.com/christmas-gifts-for-travelers/
+- Black Friday deals for travelers/side hustlers, is the VPN/eSIM deal worth it → https://curioandcove.com/black-friday-deals-travelers-side-hustlers/
 - start a newsletter, newsletter side hustle → https://curioandcove.com/start-newsletter-side-hustle/
 - build a website with AI, side project website → https://curioandcove.com/build-website-side-project-ai/
 - grow a YouTube channel with AI → https://curioandcove.com/grow-youtube-channel-ai-tools/
@@ -40,6 +41,7 @@ KEYWORDS → MY GUIDES
 - screen-free family evenings, family activities → https://curioandcove.com/screen-free-family-evening-ideas-fall/
 - Halloween family costumes → https://curioandcove.com/family-halloween-costume-ideas/
 - journaling prompts → https://curioandcove.com/how-to-start-journaling-prompts/
+- how to read a birth chart, Sun Moon Rising → https://curioandcove.com/how-to-read-your-birth-chart/
 - crochet for beginners → https://curioandcove.com/crochet-for-beginners/
 - indoor herb garden → https://curioandcove.com/windowsill-medicinal-herb-garden/
 

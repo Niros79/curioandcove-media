@@ -2,6 +2,7 @@
 
 ## Medium – imported
 - 2026-10-17: /how-to-find-cheap-flights/ (tags: Travel, Travel Tips, Budget Travel, Cheap Flights, Travel Hacks)
+- 2026-10-19: /nordvpn-vs-surfshark-travel/ (tags: VPN, Cybersecurity, Travel Tips, Travel, Online Privacy) – pack: weekly/2026-10-19-pack.md
 
 ## Quora – answered
 - 2026-10-17: https://www.quora.com/My-flight-was-delayed-How-long-can-I-wait-to-file-a-claim-for-airline-compensation

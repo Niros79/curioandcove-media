@@ -18,3 +18,7 @@
 - https://www.quora.com/What-are-the-best-eSIM-providers-for-international-travel
 - https://www.quora.com/How-long-does-a-flight-delay-have-to-be-to-get-compensation-with-Qatar-Airways
 - https://www.quora.com/unanswered/How-can-I-start-a-newsletter-that-makes-money-with-0
+
+## 2026-10-20 (seara)
+- Medium response: "How Many Days in Japan for a First Trip?" (PlanInYellow) – open-jaw + eSIM tip, fără link. Clap.
+- Medium response: "Mistakes We Made When Planning Our Bermuda Trip" (Kua Lina, Young Again) – Sunday arrival tip, fără link. Clap.

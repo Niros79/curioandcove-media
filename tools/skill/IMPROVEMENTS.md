@@ -13,3 +13,8 @@ Se adaugă după fiecare sesiune (dată – ce a mers prost, soluția, decizii n
 - Verifică linkurile local: fiecare `link` trebuie să aibă `site/public/<slug>/index.html`.
 - Următorul lot: de pus până pe 4 nov (de la 7 nov încolo): Black Friday în fața (27 nov), Christmas gifts, Cyber Monday 30 nov.
 - DECIZIE SORIN (20 oct): NU insista pe Roma / o singură destinație. Pinii și conținutul nou = travel general (zboruri ieftine, eSIM, checklist, apps, bani, city break oriunde). Pagina Roma rămâne pe site, dar fără pini noi dedicați. Cei 6 pini Roma programați (lotrome 1,3,5; lotnov 10,24,49) au fost înlocuiți cu pini travel generali.
+- DECIZIE SORIN (20 oct): OK permanent pentru comentariile Medium din playbook (2/zi, fără linkuri). Quora rămâne după playbook.
+- Kit: contul hello@curioandcove.com (id 2952495, form 10059486) e în TRIAL până pe 31 oct. Sequences = funcție plătită. Planul gratuit are 1 automatizare simplă → de folosit pentru welcome email (form → email cu PDF). Adresa de trimitere hello@ era NECONFIRMATĂ (mail „Confirm your Kit email address” 17 oct în niros) – linkul e redactat în Composio, Sorin trebuie să dea click.
+- Digistore24: cere logare cu parolă → Sorin se loghează („Stay logged in”), apoi luăm hoplink-ul.
+- Articole noi 20 oct: /airalo-alternatives-travel-esim/ (pentru query-urile airalo alternatives / saily vs yesim) și /how-to-sell-digital-products/ (Sellfy). Linkuri noi în newpage.LINKS: sellfy, elevenlabs, doola.
+- Când rulezi signup.py/kitjs.py din repo: `CC_SITE=/home/claude/curioandcove-media/site/public` (template-ul are deja scriptul kit-ajax).

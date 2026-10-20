@@ -27,7 +27,7 @@ LINKS = {
     "gocity": "https://gocity.tpm.lv/cUPURB8r",
     "tiqets": "https://tiqets.tpm.lv/iUScXcHE",
     "radical": "https://radicalstorage.tpm.lv/J22dmTvc",
-    "sellfy": "https://go.sellfy.com/sorin-curio-and-cove",
+    "sellfy": "https://sellfy.com/?via=sorin-curio-and-cove",
     "elevenlabs": "https://try.elevenlabs.io/9tyqbjdbsh85",
     "doola": "https://app.doola.com/signup/registration?mwr=curio-ef72",
 }

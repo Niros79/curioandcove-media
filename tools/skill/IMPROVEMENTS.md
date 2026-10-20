@@ -18,3 +18,4 @@ Se adaugă după fiecare sesiune (dată – ce a mers prost, soluția, decizii n
 - Digistore24: cere logare cu parolă → Sorin se loghează („Stay logged in”), apoi luăm hoplink-ul.
 - Articole noi 20 oct: /airalo-alternatives-travel-esim/ (pentru query-urile airalo alternatives / saily vs yesim) și /how-to-sell-digital-products/ (Sellfy). Linkuri noi în newpage.LINKS: sellfy, elevenlabs, doola.
 - Când rulezi signup.py/kitjs.py din repo: `CC_SITE=/home/claude/curioandcove-media/site/public` (template-ul are deja scriptul kit-ajax).
+- 20 oct: propus skill nou `curioandcove-browser-tasks` (browser + aprobare pe lot de la Sorin). Copie de salvat în tools/skill/browser-tasks-SKILL.md după ce Sorin îl salvează.

@@ -22,3 +22,4 @@
 ## 2026-10-20 (seara)
 - Medium response: "How Many Days in Japan for a First Trip?" (PlanInYellow) – open-jaw + eSIM tip, fără link. Clap.
 - Medium response: "Mistakes We Made When Planning Our Bermuda Trip" (Kua Lina, Young Again) – Sunday arrival tip, fără link. Clap.
+- 20 oct 22:5x – Medium: răspuns la Kua Lina (reply la comentariul nostru Bermuda, care are 10 claps). Fără link.

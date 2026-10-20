@@ -24,3 +24,4 @@ Se adaugă după fiecare sesiune (dată – ce a mers prost, soluția, decizii n
 - Travelpayouts 20 sep–20 oct: 27 impresii, 4 clickuri (Kiwi 3, Saily 1), $0.
 - Quora: căutarea pe tip+timp prin fetch('/search?q=..&type=question&time=year') din pagină dă rapid URL-uri de întrebări. Ciorne pentru 21 oct în weekly/2026-10-21-quora-drafts.md – APROBATE de Sorin („tot”).
 - Sorin a cerut și reels + shorts noi (noiembrie). Footage local doar 7 clipuri vechi în /home/claude/music/hook → trebuie footage nou.
+- ACORD PERMANENT SORIN (20 oct, 19:30): Claude poate confirma emailuri (click pe linkuri de confirmare deschise în Gmail din browser) și poate completa singur detalii nesensibile în formulare (nume, site, descrieri, hello@curioandcove.com, categorii). Rămân interzise chiar și cu acord: logare cu parolă, creare de conturi, captcha, date de plată/bancă/taxe/ID → le face Sorin.

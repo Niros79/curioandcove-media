@@ -176,3 +176,7 @@ section{max-width:1180px;margin:0 auto}
 .problems span{color:var(--ink-soft);font-size:.97rem}
 @media (max-width:900px){.hero2{grid-template-columns:1fr}.problems{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.problems{grid-template-columns:1fr}}
+.jump{max-width:1180px;margin:0 auto 1rem}
+.hub{padding-top:1.2rem}
+.promo-box{max-width:720px;margin:2rem auto;padding:1.5rem 1.4rem;background:var(--t-travel);border-radius:16px}
+.promo-box h2{margin-top:0}

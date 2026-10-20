@@ -2,11 +2,13 @@
 
 ## Medium – imported
 - 2026-10-17: /how-to-find-cheap-flights/ (tags: Travel, Travel Tips, Budget Travel, Cheap Flights, Travel Hacks)
-- 2026-10-19: /nordvpn-vs-surfshark-travel/ (tags: VPN, Cybersecurity, Travel Tips, Travel, Online Privacy) – pack: weekly/2026-10-19-pack.md
+- 2026-10-20: /nordvpn-vs-surfshark-travel/ PUBLISHED https://medium.com/@hello_27834/nordvpn-vs-surfshark-for-travel-2026-which-vpn-should-you-pick-c2e4072e7e07 (tags: VPN, Cybersecurity, Travel Tips, Travel, Online Privacy) – pack: weekly/2026-10-19-pack.md
+- cheap flights story: https://medium.com/@hello_27834/how-to-find-cheap-flights-from-anywhere-7-habits-that-actually-work-curio-cove-d7a139737c49 (title fixed 2026-10-20)
 
 ## Quora – answered
 - 2026-10-17: https://www.quora.com/My-flight-was-delayed-How-long-can-I-wait-to-file-a-claim-for-airline-compensation
-- 2026-10-17: https://www.quora.com/Can-you-make-money-on-a-newsletter
+- 2026-10-20: https://www.quora.com/Can-you-make-money-on-a-newsletter/answer/Curio-and-Cove (with link)
+- 2026-10-20: https://www.quora.com/Is-booking-flights-ASAP-really-the-best-way-to-get-cheap-holiday-flights/answer/Curio-and-Cove (no link)
 
 ## Quora – researched, still open (can be used in next packs)
 - https://www.quora.com/unanswered/What-month-is-the-cheapest-to-fly-to-Europe

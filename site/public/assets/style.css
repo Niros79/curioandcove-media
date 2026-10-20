@@ -152,3 +152,27 @@ section{max-width:1180px;margin:0 auto}
 .fare-route{font-weight:700;margin:.4rem 0 0}
 .fare-slot{min-height:220px}
 .kiwi-slot{min-height:160px}
+
+/* v2 homepage (Oct 2026) */
+.sr{position:absolute;left:-9999px}
+.hero2{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(1.5rem,4vw,3.5rem);align-items:center;padding-top:clamp(2.2rem,6vw,4.5rem)}
+.hero2 h1{max-width:17ch;margin-bottom:.4em}
+.kicker{text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;font-weight:800;color:var(--brass);margin:0 0 .8rem}
+.chips{list-style:none;padding:0;margin:1.4rem 0 0;display:flex;flex-wrap:wrap;gap:.55rem}
+.chips a{display:inline-block;padding:.5rem .95rem;border-radius:999px;background:var(--paper);border:1px solid #cfd8d2;color:var(--ink);text-decoration:none;font-weight:700;font-size:.95rem}
+.chips a:hover{border-color:var(--plum);color:var(--plum)}
+.hero-card{background:var(--paper);border:1px solid #d6ddd8;border-radius:18px;padding:1.5rem 1.4rem;box-shadow:0 10px 30px rgba(34,48,58,.08)}
+.hero-card h2{font-size:1.6rem;margin-bottom:.35em}
+.hero-card p{margin:.2rem 0 1rem;color:var(--ink-soft)}
+.hero-card form{display:flex;flex-direction:column;gap:.6rem}
+.hero-card input{padding:.85rem 1rem;border-radius:999px;border:1px solid rgba(0,0,0,.2);font:inherit}
+.hero-card .btn{margin:0;width:100%;text-align:center}
+.hero-card .fine-print{font-size:.82rem;margin:.7rem 0 0;opacity:.8}
+.starthere{padding:1rem 0 2.5rem}
+.problems{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.problems a{display:block;height:100%;padding:1.2rem 1.25rem;background:var(--paper);border-radius:14px;border:1px solid #d6ddd8;text-decoration:none;color:var(--ink)}
+.problems a:hover{border-color:var(--plum)}
+.problems strong{display:block;font-family:var(--serif);font-weight:400;font-size:1.35rem;margin-bottom:.3rem}
+.problems span{color:var(--ink-soft);font-size:.97rem}
+@media (max-width:900px){.hero2{grid-template-columns:1fr}.problems{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.problems{grid-template-columns:1fr}}

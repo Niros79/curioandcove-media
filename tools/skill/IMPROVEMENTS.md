@@ -19,3 +19,8 @@ Se adaugă după fiecare sesiune (dată – ce a mers prost, soluția, decizii n
 - Articole noi 20 oct: /airalo-alternatives-travel-esim/ (pentru query-urile airalo alternatives / saily vs yesim) și /how-to-sell-digital-products/ (Sellfy). Linkuri noi în newpage.LINKS: sellfy, elevenlabs, doola.
 - Când rulezi signup.py/kitjs.py din repo: `CC_SITE=/home/claude/curioandcove-media/site/public` (template-ul are deja scriptul kit-ajax).
 - 20 oct: propus skill nou `curioandcove-browser-tasks` (browser + aprobare pe lot de la Sorin). Copie de salvat în tools/skill/browser-tasks-SKILL.md după ce Sorin îl salvează.
+- 20 oct (browser-tasks): Kit – automations ȘI sequences apar „Paid feature” pe cont; decizie Sorin: welcome rămâne ca acum (PDF pe /thank-you/ + newsletter manual). Adresa hello@ e acum CONFIRMATĂ.
+- Dub: aplicarea la programe din marketplace e blocată până se aprobă „Dub Partner Network application” (pending). Sorin a aprobat aplicări la beehiiv, Framer, Durable, Buffer → de făcut când se aprobă rețeaua. Linkul Dub Sellfy: go.sellfy.com/sorin-curio-and-cove.
+- Travelpayouts 20 sep–20 oct: 27 impresii, 4 clickuri (Kiwi 3, Saily 1), $0.
+- Quora: căutarea pe tip+timp prin fetch('/search?q=..&type=question&time=year') din pagină dă rapid URL-uri de întrebări. Ciorne pentru 21 oct în weekly/2026-10-21-quora-drafts.md – APROBATE de Sorin („tot”).
+- Sorin a cerut și reels + shorts noi (noiembrie). Footage local doar 7 clipuri vechi în /home/claude/music/hook → trebuie footage nou.

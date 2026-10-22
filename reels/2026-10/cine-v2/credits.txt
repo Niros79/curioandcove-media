@@ -1,0 +1,2 @@
+Footage (Pexels): Yaroslav Shuraev (8515003, 5605043, 5607408), Ron Lach (8286907), ROCKETMANN TEAM (9467004), Mike Jones (9720877), Charles Parker (5856443), Kindel Media (7652166), ROMAN ODINTSOV (11025439), Sam Lion (6000419), cottonbro studio (4828601, 5486054, 3627321), CoolPlaces4K JC (18934517, 18934526), Alireza Akhlaghi (11642475), Dimitri Baret (15828510), Vlada Karpovich (8044816), Mikhail Nilov (7820821), K/kelly (17551136).
+Voice (EN): Kokoro TTS am_michael. RO reels: no voice. Music: original synthesis (tools/reels/make_short.py).

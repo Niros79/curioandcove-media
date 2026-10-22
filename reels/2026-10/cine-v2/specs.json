@@ -1,0 +1,50 @@
+[
+  {
+    "name": "c1-basil-v2", "root": 62, "bpm": 104, "seed": 3,
+    "hook": "Why your basil dies every winter", "hook_hl": ["dies"],
+    "chunks": ["Your basil keeps dying in winter?", "It's usually one of three things.", "One: too little light.", "Use your sunniest window, or a small grow light.", "Two: too much water.", "Let the top of the soil dry first.", "Three: cold glass at night.", "Keep the leaves off the window.", "More cozy winter ideas on Curio and Cove."],
+    "cap_hl": ["light", "water", "cold glass"],
+    "end_top": "Cozy winter ideas",
+    "clips": [{"f": "basil", "ss": 0.5, "d": 2.6}, {"f": "plantwindow", "ss": 1.0, "d": 2.6}, {"f": "herbtray", "ss": 4.0, "d": 2.6}, {"f": "basil", "ss": 5.0, "d": 2.6}, {"f": "plantwindow", "ss": 7.0, "d": 2.6}, {"f": "herbtray", "ss": 14.0, "d": 2.6}, {"f": "basil", "ss": 8.0, "d": 2.6}, {"f": "herbtray", "ss": 22.0, "d": 3.0}]
+  },
+  {
+    "name": "c2-halloween-v2", "root": 57, "bpm": 126, "seed": 4,
+    "hook": "No costume yet? Raid your closet", "hook_hl": ["closet"],
+    "chunks": ["No Halloween costume yet?", "Raid your closet.", "A family of cats:", "black clothes, paper ears, a drawn-on nose.", "Cozy ghosts:", "an old white sheet with eye holes.", "A lumberjack crew:", "plaid shirts and drawn-on beards.", "Fifteen easy family costumes on Curio and Cove."],
+    "cap_hl": ["cats", "ghosts", "lumberjack"],
+    "end_top": "15 family costume ideas",
+    "clips": [{"f": "hw_skeleton", "ss": 0.5, "d": 2.6}, {"f": "hw_bed", "ss": 2.0, "d": 2.6}, {"f": "hw_mummy", "ss": 1.0, "d": 2.6}, {"f": "hw_candy", "ss": 3.0, "d": 2.6}, {"f": "hw_bed", "ss": 12.0, "d": 2.6}, {"f": "hw_skeleton", "ss": 5.0, "d": 2.6}, {"f": "hw_mummy", "ss": 5.5, "d": 2.6}, {"f": "hw_bed", "ss": 20.0, "d": 3.0}]
+  },
+  {
+    "name": "c3-email-v2", "root": 59, "bpm": 110, "seed": 5,
+    "hook": "That awkward email? Done in 10 seconds", "hook_hl": ["10 seconds"],
+    "chunks": ["That awkward email you keep avoiding?", "Let a free AI write the first draft.", "Tell it three things:", "who it's for,", "what you need,", "and the tone.", "Then change one line so it sounds like you,", "and hit send.", "Twelve everyday AI tasks on Curio and Cove."],
+    "cap_hl": ["free AI", "three things", "sounds like you"],
+    "end_top": "12 everyday AI tasks",
+    "clips": [{"f": "lap_close", "ss": 1.0, "d": 2.6}, {"f": "lap_coffee", "ss": 3.0, "d": 2.6}, {"f": "lap_type", "ss": 1.0, "d": 2.6}, {"f": "lap_snack", "ss": 2.0, "d": 2.6}, {"f": "lap_work", "ss": 6.0, "d": 2.6}, {"f": "lap_close", "ss": 12.0, "d": 2.6}, {"f": "lap_coffee", "ss": 20.0, "d": 2.6}, {"f": "lap_work", "ss": 15.0, "d": 3.0}]
+  },
+  {
+    "name": "t1-weekend-v2", "voice": "none", "root": 60, "bpm": 122, "seed": 6, "site": "4travel.pro",
+    "hook": "Weekend la munte sau la mare?", "hook_hl": ["Weekend"],
+    "chunks": ["Alege datele: vineri–duminică", "Compară zboruri de la sute de companii", "Alege cazarea pe bugetul tău", "Totul într-un singur loc", "Caută acum: link în bio"],
+    "cap_hl": ["sute de companii", "bugetul tău", "link în bio"],
+    "end_top": "Zbor + cazare",
+    "clips": [{"f": "takeoff", "ss": 2.0, "d": 2.4}, {"f": "phoneairport", "ss": 1.0, "d": 2.4}, {"f": "airportwalk", "ss": 4.0, "d": 2.4}, {"f": "window2", "ss": 2.0, "d": 2.4}, {"f": "suitcase", "ss": 10.0, "d": 2.4}, {"f": "taxi", "ss": 18.0, "d": 3.0}]
+  },
+  {
+    "name": "t2-iarna-v2", "voice": "none", "root": 55, "bpm": 118, "seed": 7, "site": "4travel.pro",
+    "hook": "Încă n-ai bilet pentru sărbători?", "hook_hl": ["sărbători"],
+    "chunks": ["Crăciunul și Revelionul sunt cele mai cerute date", "Cu cât aștepți, cu atât plătești mai mult", "Setează azi o alertă de preț", "Fii flexibil cu o zi", "Poate costa mult mai puțin", "Compară zborurile: link în bio"],
+    "cap_hl": ["alertă de preț", "o zi", "link în bio"],
+    "end_top": "Compară zborurile",
+    "clips": [{"f": "window2", "ss": 6.0, "d": 2.4}, {"f": "scroll", "ss": 2.0, "d": 2.4}, {"f": "airportwalk", "ss": 9.0, "d": 2.4}, {"f": "taxi", "ss": 8.0, "d": 2.4}, {"f": "phoneairport", "ss": 8.0, "d": 2.4}, {"f": "window", "ss": 1.0, "d": 2.4}, {"f": "takeoff", "ss": 4.5, "d": 3.0}]
+  },
+  {
+    "name": "t3-combinat-v2", "voice": "none", "root": 62, "bpm": 128, "seed": 8, "site": "4travel.pro",
+    "hook": "Bilet mai ieftin cu două companii?", "hook_hl": ["mai ieftin"],
+    "chunks": ["Unele căutări combină companii aeriene diferite", "Poate ieși mai ieftin decât un bilet clasic", "Verifică timpul de escală", "și regulile de bagaj", "Caută rute combinate: link în bio"],
+    "cap_hl": ["mai ieftin", "escală", "link în bio"],
+    "end_top": "Rute combinate",
+    "clips": [{"f": "airportwalk", "ss": 11.0, "d": 2.4}, {"f": "taxi", "ss": 14.0, "d": 2.4}, {"f": "scroll", "ss": 9.0, "d": 2.4}, {"f": "suitcase", "ss": 12.0, "d": 2.4}, {"f": "window2", "ss": 11.0, "d": 2.4}, {"f": "takeoff", "ss": 0.0, "d": 3.0}]
+  }
+]

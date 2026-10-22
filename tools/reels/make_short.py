@@ -126,8 +126,12 @@ def build(spec):
     audio, cues, t = [], [], 0.25
     audio.append(np.zeros(int(0.25 * SR)))
     for ch in spec["chunks"]:
-        s = tts(ch, spec.get("voice", "am_michael"), spec.get("speed", 1.12))
-        d = len(s) / SR
+        if spec.get("voice") == "none":
+            d = max(1.5, 0.42 * len(ch.split()) + 0.5)
+            s = np.zeros(int(d * SR))
+        else:
+            s = tts(ch, spec.get("voice", "am_michael"), spec.get("speed", 1.12))
+            d = len(s) / SR
         cues.append((t, t + d, ch))
         audio += [s, np.zeros(gap)]
         t += d + gap / SR
@@ -169,7 +173,7 @@ def build(spec):
         text_png(p, ch, 84, 1360, (255, 255, 255, 255), (0, 0, 0, 150), highlight=spec.get("cap_hl"), maxw=880, font=BLACK, pad=22)
         ov.append((p, a, b + 0.08))
     text_png(f"{out}/end1.png", spec.get("end_top", "Full guide"), 80, 800, (255, 255, 255, 255), (0, 0, 0, 205))
-    text_png(f"{out}/end2.png", "curioandcove.com", 92, 960, (20, 20, 20, 255), (255, 214, 64, 255))
+    text_png(f"{out}/end2.png", spec.get("site", "curioandcove.com"), 92, 960, (20, 20, 20, 255), (255, 214, 64, 255))
     ov.append((f"{out}/end1.png", total - endcard, total))
     ov.append((f"{out}/end2.png", total - endcard, total))
     inputs = ["-i", f"{out}/broll.mp4", "-i", f"{out}/voice.wav", "-i", f"{out}/music.wav"]
@@ -179,7 +183,8 @@ def build(spec):
         idx = n + 3
         fc.append(f"[{last}][{idx}:v]overlay=0:0:enable='between(t,{a:.3f},{b:.3f})'[v{n}]")
         last = f"v{n}"
-    fc.append("[1:a]aresample=44100,volume=1.7,asplit=2[va][vk];[2:a]volume=0.55[mraw];"
+    mvol = "0.9" if spec.get("voice") == "none" else "0.55"
+    fc.append("[1:a]aresample=44100,volume=1.7,asplit=2[va][vk];[2:a]volume=" + mvol + "[mraw];"
               "[mraw][vk]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350[ma];"
               "[va][ma]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.2:LRA=9[a]")
     final = os.path.join(BASE, "out", f"{name}.mp4")

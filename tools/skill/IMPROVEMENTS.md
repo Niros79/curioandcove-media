@@ -38,3 +38,9 @@ Se adaugă după fiecare sesiune (dată – ce a mers prost, soluția, decizii n
 - Linkuri noi pe site: Rexing în /renting-a-car-abroad/, Klook în /are-city-passes-worth-it/, Abracadabra homepage în /tools/. heikoboos.com = „1000+ ChatGPT Prompts for Affiliate Marketing” ($47), NU neapărat Premium Prompt Library – de confirmat în Digistore (logare Sorin).
 - Sellfy (Dub): linkul oficial afișat în partners.dub.co/programs/sellfy este `sellfy.com?via=sorin-curio-and-cove` (25% pe viață, payout minim $50, holding 30 zile). Site-ul folosește acest link (go.sellfy.com/... redirecționa tot aici).
 - 21 oct 00:00: GREȘEALĂ – am făcut reels doar din text; regula lui Sorin: reels CINEMATICE cu filmare reală (de pus și în REGULI-SI-DECIZII). Footage găsit prin vidIQ b-roll (1 credit/căutare, 18 credite rămase până pe 6 nov); videos.pexels.com e blocat în mediu → Sorin îl adaugă la Settings › Capabilities. Lista clipurilor: reels/plan/2026-10-footage.md. Reluăm mâine.
+
+## 2026-10-22 – design v4.1 live
+- Curio & Cove redesign live (aprobat de Sorin): fundal nisip #EAE2D3, verde pădure #234A3F + muștar #E3A43B, fonturi Fraunces + Inter, style.css?v=5.
+- Homepage: articol principal cu poză + „Fresh this week”, banda verde „Browse the shelves” (6 poze), „Latest guides” (prima <ul class="cards"> = unde newpage.py inserează articole noi), banda checklist #newsletter.
+- Poze: assets/img/<slug>.jpg (1600px, poza mare din articol + og:image) și assets/img/sm/<slug>.jpg (800px, carduri); rafturi: shelf-<travel|money|home|love|mind|crafts>.jpg. Sursă: Pexels (images.pexels.com permis din 22 oct); ID-uri găsite cu WebSearch site pexels.com.
+- REGULĂ: după orice pagină nouă: pune poza (assets/img/<slug>.jpg + sm/) și rulează `python3 tools/site/decorate.py site/public` (adaugă poza în carduri, hero în articol, og:image, CTA în antet). Idempotent.

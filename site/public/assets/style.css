@@ -1,6 +1,6 @@
 /* Curio & Cove – v4 design (Oct 22, 2026): editorial, photo-led */
 :root{
-  --paper:#F6F3EC; --card:#FFFFFF; --line:#E2DDD1; --ink:#1C2B27; --ink-soft:#44534F; --muted:#5D6B67;
+  --paper:#EAE2D3; --card:#FFFFFF; --line:#D6CCB8; --ink:#1C2B27; --ink-soft:#44534F; --muted:#5D6B67;
   --forest:#234A3F; --forest-deep:#18352D; --saffron:#E3A43B; --saffron-ink:#8A5A10;
   --c-travel:#1D4E63; --c-money:#6B3E78; --c-home:#3E6B2F; --c-family:#A33B2B; --c-mind:#8A5A10; --c-crafts:#9B4A2E;
   --t-travel:#DCEBF2; --t-money:#ECE1F0; --t-home:#E2EEDB; --t-family:#F6E0DA; --t-mind:#F4E9D2; --t-crafts:#F5E3D8;
@@ -28,7 +28,7 @@ h3{font-family:var(--serif);font-weight:600}
 .kicker{text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;font-weight:700;color:var(--saffron-ink);margin:0 0 .6rem}
 
 /* header */
-.site-header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem max(1rem,calc((100vw - var(--wrap))/2 + 1.5rem));background:rgba(246,243,236,.96);backdrop-filter:saturate(1.2) blur(6px);border-bottom:1px solid var(--line)}
+.site-header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem max(1rem,calc((100vw - var(--wrap))/2 + 1.5rem));background:rgba(234,226,211,.95);backdrop-filter:saturate(1.2) blur(6px);border-bottom:1px solid var(--line)}
 .brand{display:inline-flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink);font-family:var(--serif);font-weight:700;font-size:1.5rem;letter-spacing:-.01em}
 .brand .emblem{width:34px;height:34px;color:var(--forest)}
 .nav ul,.menu ul,.foot-links,.pill-list,.niches,.cards,.chips,.problems,.shelves,.fresh{list-style:none;margin:0;padding:0}
@@ -59,7 +59,7 @@ section{max-width:var(--wrap);margin:0 auto}
 .actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.8rem}
 
 /* ---------- homepage v4 ---------- */
-.home-hero{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:2rem;padding:2.2rem 0 1.5rem;align-items:start}
+.home-hero{position:relative;display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:2rem;padding:2.2rem 0 1.5rem;align-items:start}
 .feature{display:flex;flex-direction:column;background:var(--card);border-radius:22px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 1px 2px rgba(28,43,39,.06)}
 .feature img{width:100%;aspect-ratio:16/9;object-fit:cover}
 .feature-body{padding:1.6rem 1.9rem 1.9rem;display:flex;flex-direction:column;gap:.7rem}
@@ -80,7 +80,9 @@ section{max-width:var(--wrap);margin:0 auto}
 .sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:.6rem 1.5rem;margin:0 0 1.2rem}
 .sec-head h2{margin:0}
 .sec-head p{margin:0;color:var(--ink-soft)}
-.shelves-sec{padding:2rem 0}
+.shelves-sec{max-width:none;background:var(--forest-deep);margin:2.5rem calc(-1 * clamp(1rem,4vw,1.5rem));padding:3rem clamp(1rem,4vw,1.5rem)}
+.shelves-sec > *{max-width:var(--wrap);margin-left:auto;margin-right:auto}
+.shelves-sec .sec-head h2{color:#fff}.shelves-sec .sec-head p{color:#C9D8D1}
 .shelves{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1rem}
 .shelves a{position:relative;display:block;height:280px;border-radius:var(--radius);overflow:hidden;text-decoration:none;color:var(--ink)}
 .shelves img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
@@ -211,3 +213,8 @@ section{max-width:var(--wrap);margin:0 auto}
 
 /* old arch cabinet (kept hidden if still present) */
 .cabinet{display:none}
+
+/* warmer depth (v4.1) */
+.card a,.feature,.fresh a{box-shadow:0 2px 6px rgba(60,45,20,.08),0 1px 1px rgba(60,45,20,.05)}
+.post-hero img,.cat-photo{box-shadow:0 18px 40px rgba(60,45,20,.18)}
+.band{margin-top:2.5rem}

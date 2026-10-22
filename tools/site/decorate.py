@@ -38,7 +38,7 @@ def run():
             p = os.path.join(dirpath, fn)
             s = open(p, encoding="utf-8").read()
             o = s
-            s = s.replace(OLD_FONT, NEW_FONT).replace("/assets/style.css?v=3", "/assets/style.css?v=4")
+            s = s.replace(OLD_FONT, NEW_FONT).replace("/assets/style.css?v=3", "/assets/style.css?v=5")
             if 'class="head-cta"' not in s and 'class="site-header"' in s:
                 i = s.index('class="site-header"')
                 j = s.index("</header>", i)

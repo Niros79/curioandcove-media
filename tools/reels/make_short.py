@@ -63,32 +63,58 @@ def text_png(path, text, size, y_center, fg, bg, highlight=None, pad=26, maxw=92
     img.save(path)
 
 
-def music(dur, root, out):
-    t = np.arange(int(dur * 44100)) / 44100
-    bpm = 112
-    beat = 60 / bpm
+def music(dur, root, out, bpm=118, seed=0):
+    """Upbeat original loop: kick/snare/hats, bassline, chord stabs, pluck arpeggio."""
+    R = 44100
+    rng = np.random.default_rng(seed)
+    t = np.arange(int(dur * R)) / R
     s = np.zeros_like(t)
-    prog = [0, 5, 7, 3] if root % 2 else [0, 7, 9, 5]
-    for i, c in enumerate(prog * 20):
-        st = i * beat * 4
-        if st > dur:
-            break
-        n = slice(int(st * 44100), int(min(dur, st + beat * 4) * 44100))
-        tt = t[n] - st
-        for iv in (0, 4 if root % 2 else 3, 7):
-            f = 440 * 2 ** ((root + c + iv - 69) / 12)
-            s[n] += 0.10 * np.sin(2 * np.pi * f * tt) * np.exp(-tt * 0.6)
-    for k in np.arange(0, dur, beat):  # soft kick
-        n = slice(int(k * 44100), int(min(dur, k + 0.25) * 44100))
-        tt = t[n] - k
-        s[n] += 0.35 * np.sin(2 * np.pi * (55 + 90 * np.exp(-tt * 30)) * tt) * np.exp(-tt * 14)
-    for k in np.arange(beat / 2, dur, beat):  # hat
-        n = slice(int(k * 44100), int(min(dur, k + 0.05) * 44100))
-        s[n] += 0.04 * np.random.randn(n.stop - n.start) * np.exp(-np.arange(n.stop - n.start) / 400)
-    fade = int(1.0 * 44100)
+    beat = 60 / bpm
+    hz = lambda m: 440 * 2 ** ((m - 69) / 12)
+    progs = [[0, 7, 9, 5], [0, 5, 9, 7], [9, 5, 0, 7]]
+    prog = progs[seed % 3]
+    minor = {9}
+    def add(st, sig):
+        i0 = int(st * R)
+        if i0 >= len(s):
+            return
+        n = min(len(sig), len(s) - i0)
+        s[i0:i0 + n] += sig[:n]
+    def tone(f, d, dec, kind="sin"):
+        tt = np.arange(int(d * R)) / R
+        w = np.sin(2 * np.pi * f * tt)
+        if kind == "saw":
+            w = sum(np.sin(2 * np.pi * f * k * tt) / k for k in range(1, 7)) * 0.6
+        return w * np.exp(-tt * dec)
+    bar = beat * 4
+    nb = int(dur / bar) + 1
+    for b in range(nb):
+        c = prog[b % 4]
+        third = 3 if c in minor else 4
+        st = b * bar
+        for k in range(4):  # kick on every beat
+            tt = np.arange(int(0.3 * R)) / R
+            add(st + k * beat, 0.9 * np.sin(2 * np.pi * (50 + 110 * np.exp(-tt * 28)) * tt) * np.exp(-tt * 9))
+        for k in (1, 3):  # snare/clap
+            n = int(0.18 * R)
+            add(st + k * beat, 0.28 * rng.standard_normal(n) * np.exp(-np.arange(n) / (0.035 * R)))
+        for k in range(8):  # hats
+            n = int(0.05 * R)
+            add(st + k * beat / 2 + beat / 4, 0.07 * rng.standard_normal(n) * np.exp(-np.arange(n) / 500))
+        for k in range(8):  # bass eighths
+            add(st + k * beat / 2, 0.32 * tone(hz(root + c - 24), beat / 2 * 0.9, 5, "saw"))
+        for k in (0, 1.5, 2.5):  # chord stabs
+            for iv in (0, third, 7, 12):
+                add(st + k * beat, 0.07 * tone(hz(root + c + iv), 0.45, 6, "saw"))
+        arp = [0, third, 7, 12, 7, third, 12, 19]
+        for k in range(8):  # pluck arp sixteenth-ish
+            add(st + k * beat / 2, 0.06 * tone(hz(root + 12 + c + arp[k]), 0.25, 14))
+    fade = int(1.2 * R)
     s[-fade:] *= np.linspace(1, 0, fade)
+    s[: int(0.05 * R)] *= np.linspace(0, 1, int(0.05 * R))
+    s = np.tanh(s * 1.2)
     s = s / (np.abs(s).max() + 1e-9) * 0.9
-    sf.write(out, s, 44100)
+    sf.write(out, np.stack([s, s], axis=1), R)
 
 
 def build(spec):
@@ -109,7 +135,7 @@ def build(spec):
     total = t + endcard
     voice = np.concatenate(audio + [np.zeros(int(endcard * SR))])
     sf.write(f"{out}/voice.wav", voice, SR)
-    music(total + 0.5, spec.get("root", 57), f"{out}/music.wav")
+    music(total + 0.5, spec.get("root", 57), f"{out}/music.wav", bpm=spec.get("bpm", 118), seed=spec.get("seed", 0))
     # --- b-roll timeline
     segs, cur, i = [], 0.0, 0
     clips = spec["clips"]
@@ -153,8 +179,9 @@ def build(spec):
         idx = n + 3
         fc.append(f"[{last}][{idx}:v]overlay=0:0:enable='between(t,{a:.3f},{b:.3f})'[v{n}]")
         last = f"v{n}"
-    fc.append("[1:a]volume=1.6[va];[2:a]volume=0.13[ma];[va][ma]amix=inputs=2:duration=first:normalize=0,"
-              "alimiter=limit=0.95[a]")
+    fc.append("[1:a]aresample=44100,volume=1.7,asplit=2[va][vk];[2:a]volume=0.55[mraw];"
+              "[mraw][vk]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350[ma];"
+              "[va][ma]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.2:LRA=9[a]")
     final = os.path.join(BASE, "out", f"{name}.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fc),
                     "-map", f"[{last}]", "-map", "[a]", "-t", f"{total:.3f}", "-c:v", "libx264", "-preset", "medium",

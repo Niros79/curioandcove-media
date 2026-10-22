@@ -1,0 +1,89 @@
+[
+  {
+    "name": "flights-incognito",
+    "hook": "Incognito won't get you a cheaper flight",
+    "hook_hl": ["cheaper"],
+    "root": 57,
+    "chunks": [
+      "Incognito mode won't reliably",
+      "get you a cheaper flight.",
+      "Prices mostly move",
+      "because seats sell out,",
+      "not because the airline remembers you.",
+      "What actually works?",
+      "Set a free price alert,",
+      "and book when it drops.",
+      "More cheap flight tricks",
+      "on Curio and Cove."
+    ],
+    "cap_hl": ["price alert", "sell out"],
+    "end_top": "Cheap flight guide",
+    "clips": [
+      {"f": "scroll", "ss": 1.0, "d": 2.8},
+      {"f": "airportwalk", "ss": 2.0, "d": 2.6},
+      {"f": "phoneairport", "ss": 3.0, "d": 2.6},
+      {"f": "taxi", "ss": 6.0, "d": 2.6},
+      {"f": "window", "ss": 3.0, "d": 2.6},
+      {"f": "takeoff", "ss": 0.5, "d": 2.6},
+      {"f": "suitcase", "ss": 4.0, "d": 2.6},
+      {"f": "window", "ss": 9.0, "d": 3.0}
+    ]
+  },
+  {
+    "name": "flights-friday",
+    "hook": "Stop flying on Fridays",
+    "hook_hl": ["Fridays"],
+    "root": 60,
+    "chunks": [
+      "Stop flying out on Fridays.",
+      "Friday departures and Sunday returns",
+      "are usually the priciest,",
+      "because everyone wants them.",
+      "Move your trip to a Tuesday",
+      "or a Wednesday,",
+      "and the same route",
+      "is often noticeably cheaper.",
+      "Always check the date grid",
+      "before you book."
+    ],
+    "cap_hl": ["Tuesday", "Wednesday", "cheaper", "date grid"],
+    "end_top": "More flight tricks",
+    "clips": [
+      {"f": "airportwalk", "ss": 0.5, "d": 2.6},
+      {"f": "takeoff", "ss": 1.0, "d": 2.4},
+      {"f": "phoneairport", "ss": 6.0, "d": 2.6},
+      {"f": "scroll", "ss": 5.0, "d": 2.6},
+      {"f": "taxi", "ss": 12.0, "d": 2.6},
+      {"f": "suitcase", "ss": 8.0, "d": 2.6},
+      {"f": "window", "ss": 6.0, "d": 3.0}
+    ]
+  },
+  {
+    "name": "flights-oneway",
+    "hook": "Don't book a round trip yet",
+    "hook_hl": ["round trip"],
+    "root": 55,
+    "chunks": [
+      "Before you book a round trip,",
+      "price two one-way tickets.",
+      "Budget airlines sell each leg separately,",
+      "so mixing airlines",
+      "can come out cheaper.",
+      "Bonus: you can fly home",
+      "from a different city.",
+      "Just leave extra time",
+      "in case a flight is delayed."
+    ],
+    "cap_hl": ["one-way", "cheaper", "different city"],
+    "end_top": "Full cheap flight guide",
+    "clips": [
+      {"f": "scroll", "ss": 7.0, "d": 2.6},
+      {"f": "taxi", "ss": 2.0, "d": 2.6},
+      {"f": "airportwalk", "ss": 7.0, "d": 2.6},
+      {"f": "takeoff", "ss": 3.5, "d": 2.4},
+      {"f": "window", "ss": 12.0, "d": 2.6},
+      {"f": "phoneairport", "ss": 10.0, "d": 2.6},
+      {"f": "suitcase", "ss": 0.5, "d": 3.0}
+    ]
+  }
+]

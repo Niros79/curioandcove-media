@@ -1,0 +1,2 @@
+Video credits (Pexels): Alireza Akhlaghi (11642475), Dimitri Baret (15828510), Vlada Karpovich (8044816), cottonbro studio (3627321), Mikhail Nilov (7820821), CoolPlaces4K JC (18934517), K/kelly (17551136).
+Voice: Kokoro TTS (am_michael). Music: original synthesis (tools/reels/make_short.py).

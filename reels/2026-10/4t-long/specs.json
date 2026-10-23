@@ -1,0 +1,82 @@
+[
+  {
+    "name": "4t-tur-voce",
+    "voice": "none",
+    "durs": [2.944, 2.915, 2.038, 1.992, 1.881, 2.285, 2.273, 1.622, 1.819, 2.387, 3.524, 1.404],
+    "voice_note": "Voce ElevenLabs (ro, voice onwK4e9ZLuTAKqWW03F9) adăugată după randare: fiecare frază pornește la 0.25 s + suma (durată + 0.12 s).",
+    "hook": "Toată vacanța, într-o singură căutare",
+    "hook_hl": ["o singură căutare"],
+    "root": 55,
+    "seed": 21,
+    "bpm": 104,
+    "chunks": [
+      "Pleci în vacanță? Uite ce găsești pe 4travel.pro",
+      "Zboruri ieftine de la sute de companii aeriene,",
+      "comparate într-o singură căutare.",
+      "Cazări și sejururi zbor + hotel,",
+      "pentru city break, munte sau mare.",
+      "Transfer de la aeroport, mașini de închiriat",
+      "și eSIM, ca să ai internet oriunde.",
+      "Vezi unde zbori ieftin în weekend",
+      "și în ce lună prețul e cel mai mic.",
+      "Zborul a întârziat? Verifici compensația.",
+      "Rezervi direct la vânzător, fără taxe în plus de la noi.",
+      "Intră pe 4travel.pro"
+    ],
+    "cap_hl": ["Zboruri ieftine", "sejururi", "eSIM", "weekend", "compensația", "fără taxe"],
+    "end_top": "Zboruri și vacanțe într-o căutare",
+    "site": "4travel.pro",
+    "clips": [
+      {"f": "4t-hero", "ss": 0.0, "d": 3.25},
+      {"f": "4t-flights", "ss": 0.0, "d": 5.2},
+      {"f": "4t-sejur", "ss": 0.0, "d": 2.1},
+      {"f": "4t-holidays", "ss": 0.0, "d": 2.0},
+      {"f": "boarding", "ss": 2.0, "d": 2.4},
+      {"f": "4t-esim", "ss": 0.0, "d": 2.4},
+      {"f": "4t-weekend", "ss": 0.0, "d": 1.7},
+      {"f": "4t-calendar", "ss": 0.0, "d": 2.0},
+      {"f": "4t-delay", "ss": 0.0, "d": 2.5},
+      {"f": "booking", "ss": 20.0, "d": 3.6},
+      {"f": "4t-hero", "ss": 1.0, "d": 4.0}
+    ]
+  },
+  {
+    "name": "4t-servicii",
+    "voice": "none",
+    "hook": "Tot ce-ți trebuie pentru vacanță, pe un singur site",
+    "hook_hl": ["un singur site"],
+    "root": 58,
+    "seed": 23,
+    "bpm": 112,
+    "chunks": [
+      "Zboruri ieftine, dintr-o singură căutare",
+      "Cazări și sejururi zbor + hotel",
+      "Transfer de la aeroport",
+      "Mașini, biciclete și scutere de închiriat",
+      "eSIM pentru internet în străinătate",
+      "Tururi, bilete și depozitare bagaje",
+      "Unde zbori ieftin în weekend",
+      "Luna cu cel mai mic preț",
+      "Zbor întârziat? Verifici compensația",
+      "Fără taxe în plus. Rezervi direct.",
+      "Totul pe 4travel.pro"
+    ],
+    "cap_hl": ["Zboruri ieftine", "eSIM", "weekend", "compensația"],
+    "end_top": "Caută acum",
+    "site": "4travel.pro",
+    "clips": [
+      {"f": "planesky", "ss": 2.0, "d": 3.0},
+      {"f": "4t-flights", "ss": 0.5, "d": 2.8},
+      {"f": "4t-sejur", "ss": 0.5, "d": 2.6},
+      {"f": "boarding", "ss": 6.0, "d": 2.4},
+      {"f": "lisbon", "ss": 30.0, "d": 2.8},
+      {"f": "4t-esim", "ss": 0.5, "d": 2.8},
+      {"f": "xmasmarket", "ss": 2.0, "d": 2.8},
+      {"f": "4t-weekend", "ss": 0.5, "d": 2.6},
+      {"f": "4t-calendar", "ss": 0.5, "d": 2.6},
+      {"f": "4t-delay", "ss": 0.5, "d": 2.8},
+      {"f": "beachwaves", "ss": 4.0, "d": 2.6},
+      {"f": "4t-hero", "ss": 0.5, "d": 4.0}
+    ]
+  }
+]

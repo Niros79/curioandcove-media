@@ -125,8 +125,11 @@ def build(spec):
     # --- voice, chunk by chunk (gives exact caption timing)
     audio, cues, t = [], [], 0.25
     audio.append(np.zeros(int(0.25 * SR)))
-    for ch in spec["chunks"]:
-        if spec.get("voice") == "none":
+    for ci, ch in enumerate(spec["chunks"]):
+        if spec.get("durs"):
+            d = spec["durs"][ci]
+            s = np.zeros(int(d * SR))
+        elif spec.get("voice") == "none":
             d = max(1.5, 0.42 * len(ch.split()) + 0.5)
             s = np.zeros(int(d * SR))
         else:
@@ -183,7 +186,7 @@ def build(spec):
         idx = n + 3
         fc.append(f"[{last}][{idx}:v]overlay=0:0:enable='between(t,{a:.3f},{b:.3f})'[v{n}]")
         last = f"v{n}"
-    mvol = "0.9" if spec.get("voice") == "none" else "0.55"
+    mvol = "0.9" if (spec.get("voice") == "none" and not spec.get("durs")) else "0.55"
     fc.append("[1:a]aresample=44100,volume=1.7,asplit=2[va][vk];[2:a]volume=" + mvol + "[mraw];"
               "[mraw][vk]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350[ma];"
               "[va][ma]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.2:LRA=9[a]")

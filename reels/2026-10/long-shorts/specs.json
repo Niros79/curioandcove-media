@@ -1,0 +1,229 @@
+[
+  {
+    "name": "cc-tour-6-shelves",
+    "hook": "One site for small, smart everyday wins",
+    "hook_hl": [
+      "everyday wins"
+    ],
+    "root": 57,
+    "seed": 11,
+    "bpm": 104,
+    "chunks": [
+      "Curio and Cove is a free guide",
+      "to small discoveries for everyday life.",
+      "Six shelves. Here's what's inside.",
+      "Travel: how to find cheap flights,",
+      "ten winter city breaks in Europe,",
+      "the best eSIMs, and a free trip checklist.",
+      "Money and Skills: honest side hustles,",
+      "how to start a paid newsletter,",
+      "and free AI tools that save you time.",
+      "Home and Garden: grow fresh herbs",
+      "and greens indoors, all winter long.",
+      "Love and Family: thoughtful gift ideas",
+      "and screen-free evenings together.",
+      "Mind and Spirit: journaling prompts",
+      "and a simple routine for better sleep.",
+      "Crafts and Hobbies: cosy projects to try,",
+      "and how to sell what you make.",
+      "Every guide is practical and honest.",
+      "No fluff, no get-rich-quick.",
+      "Start exploring at curioandcove.com."
+    ],
+    "cap_hl": [
+      "Travel",
+      "Money and Skills",
+      "Home and Garden",
+      "Love and Family",
+      "Mind and Spirit",
+      "Crafts and Hobbies"
+    ],
+    "end_top": "Small discoveries for everyday living",
+    "clips": [
+      {
+        "f": "site-home",
+        "ss": 0.0,
+        "d": 4.0
+      },
+      {
+        "f": "planewin",
+        "ss": 4.0,
+        "d": 2.4
+      },
+      {
+        "f": "site-cityart",
+        "ss": 0.5,
+        "d": 3.4
+      },
+      {
+        "f": "site-checklist",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "typing",
+        "ss": 1.0,
+        "d": 2.6
+      },
+      {
+        "f": "site-newsart",
+        "ss": 0.5,
+        "d": 3.2
+      },
+      {
+        "f": "plantswindow",
+        "ss": 1.0,
+        "d": 2.4
+      },
+      {
+        "f": "site-gardenart",
+        "ss": 0.5,
+        "d": 3.2
+      },
+      {
+        "f": "boardgame",
+        "ss": 2.0,
+        "d": 2.6
+      },
+      {
+        "f": "site-giftsart",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "writing",
+        "ss": 1.0,
+        "d": 2.6
+      },
+      {
+        "f": "site-sleepart",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "site-hobbyart",
+        "ss": 0.5,
+        "d": 3.4
+      },
+      {
+        "f": "workhome",
+        "ss": 2.0,
+        "d": 2.6
+      },
+      {
+        "f": "site-home",
+        "ss": 6.0,
+        "d": 4.0
+      }
+    ],
+    "speed": 1.0
+  },
+  {
+    "name": "cc-6-new-guides",
+    "hook": "6 new guides for a better winter",
+    "hook_hl": [
+      "6 new guides"
+    ],
+    "root": 60,
+    "seed": 13,
+    "bpm": 108,
+    "chunks": [
+      "Six new guides on Curio and Cove.",
+      "One: ten cheap winter city breaks,",
+      "from sunny Lisbon to snowy Prague.",
+      "Two: how to start a paid newsletter",
+      "from zero, with realistic numbers.",
+      "Three: twelve easy things to grow indoors,",
+      "some ready in just one week.",
+      "Four: Christmas gifts for the whole family,",
+      "from grandparents to teens.",
+      "Five: a simple sixty-minute evening routine",
+      "for better sleep.",
+      "Six: fifteen cosy winter hobbies,",
+      "and a few that can earn a little money.",
+      "All free, at curioandcove.com."
+    ],
+    "cap_hl": [
+      "One:",
+      "Two:",
+      "Three:",
+      "Four:",
+      "Five:",
+      "Six:"
+    ],
+    "end_top": "6 new winter guides",
+    "clips": [
+      {
+        "f": "site-home",
+        "ss": 0.0,
+        "d": 3.0
+      },
+      {
+        "f": "xmasmarket",
+        "ss": 0.5,
+        "d": 2.4
+      },
+      {
+        "f": "site-cityart",
+        "ss": 0.5,
+        "d": 3.2
+      },
+      {
+        "f": "typing2",
+        "ss": 1.0,
+        "d": 2.4
+      },
+      {
+        "f": "site-newsart",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "seedtimelapse",
+        "ss": 2.0,
+        "d": 2.4
+      },
+      {
+        "f": "site-gardenart",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "xmastree",
+        "ss": 1.0,
+        "d": 2.4
+      },
+      {
+        "f": "site-giftsart",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "journal",
+        "ss": 2.0,
+        "d": 2.4
+      },
+      {
+        "f": "site-sleepart",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "boardgame2",
+        "ss": 2.0,
+        "d": 2.4
+      },
+      {
+        "f": "site-hobbyart",
+        "ss": 0.5,
+        "d": 3.0
+      },
+      {
+        "f": "site-home",
+        "ss": 5.0,
+        "d": 3.0
+      }
+    ],
+    "speed": 1.0
+  }
+]

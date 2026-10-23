@@ -1,0 +1,122 @@
+[
+  {
+    "name": "cc-winter-citybreaks",
+    "hook": "Europe's cheapest season? Winter",
+    "hook_hl": ["Winter"],
+    "root": 57,
+    "chunks": [
+      "Europe gets cheap in winter.",
+      "From mid-January to March,",
+      "flights and hotels drop",
+      "and the queues disappear.",
+      "Want sun? Try Lisbon,",
+      "Seville or Athens.",
+      "Want snow and markets?",
+      "Prague, Budapest, Kraków.",
+      "Ten winter city breaks",
+      "on Curio and Cove."
+    ],
+    "cap_hl": ["cheap", "Lisbon", "Prague"],
+    "end_top": "10 winter city breaks",
+    "clips": [
+      {"f": "xmasmarket", "ss": 0.5, "d": 2.6},
+      {"f": "snowpine", "ss": 1.0, "d": 2.4},
+      {"f": "winterwalk", "ss": 0.3, "d": 2.4},
+      {"f": "lisbon", "ss": 6.0, "d": 2.8},
+      {"f": "lisbon", "ss": 22.0, "d": 2.6},
+      {"f": "planewin", "ss": 4.0, "d": 2.6},
+      {"f": "xmastree", "ss": 2.0, "d": 2.6},
+      {"f": "packing", "ss": 3.0, "d": 2.6}
+    ]
+  },
+  {
+    "name": "cc-indoor-garden",
+    "hook": "Fresh greens in 7 days, indoors",
+    "hook_hl": ["7 days"],
+    "root": 60,
+    "seed": 3,
+    "chunks": [
+      "You can grow fresh greens",
+      "indoors, all winter long.",
+      "Microgreens are ready",
+      "in seven to fourteen days.",
+      "A bright window is enough",
+      "for chives, mint and pea shoots.",
+      "Lettuce and basil",
+      "love a simple grow light.",
+      "Twelve easy picks",
+      "on Curio and Cove."
+    ],
+    "cap_hl": ["seven to fourteen days", "grow light"],
+    "end_top": "Indoor winter garden",
+    "clips": [
+      {"f": "plantswindow", "ss": 0.5, "d": 2.6},
+      {"f": "seedtimelapse", "ss": 1.0, "d": 2.8},
+      {"f": "seedlings", "ss": 0.5, "d": 2.6},
+      {"f": "watering", "ss": 5.0, "d": 2.6},
+      {"f": "cutveg", "ss": 1.0, "d": 2.6},
+      {"f": "plantswindow", "ss": 8.0, "d": 2.6},
+      {"f": "seedtimelapse", "ss": 7.0, "d": 2.6}
+    ]
+  },
+  {
+    "name": "4t-zboruri-iarna",
+    "voice": "none",
+    "hook": "Zboruri ieftine iarna? Uite când",
+    "hook_hl": ["ieftine"],
+    "root": 55,
+    "seed": 5,
+    "chunks": [
+      "Iarna e cel mai ieftin sezon",
+      "pentru city break în Europa.",
+      "Din ianuarie până în martie:",
+      "prețuri mici, fără cozi.",
+      "Vrei soare? Lisabona, Atena.",
+      "Vrei târguri? Praga, Viena.",
+      "Compară zborurile",
+      "pe 4travel.pro"
+    ],
+    "cap_hl": ["ieftin", "prețuri mici"],
+    "end_top": "Caută zboruri ieftine",
+    "site": "4travel.pro",
+    "clips": [
+      {"f": "planesky", "ss": 1.0, "d": 2.6},
+      {"f": "xmasmarket", "ss": 3.0, "d": 2.6},
+      {"f": "lisbon", "ss": 14.0, "d": 2.6},
+      {"f": "booking", "ss": 10.0, "d": 2.6},
+      {"f": "snowpine", "ss": 5.0, "d": 2.4},
+      {"f": "boarding", "ss": 2.0, "d": 2.6},
+      {"f": "planewin2", "ss": 8.0, "d": 2.6}
+    ]
+  },
+  {
+    "name": "4t-soare-ianuarie",
+    "voice": "none",
+    "hook": "Scapă de iarnă: vacanță la soare",
+    "hook_hl": ["soare"],
+    "root": 62,
+    "seed": 7,
+    "chunks": [
+      "Sătul de frig și ceață?",
+      "Pachetele zbor + hotel",
+      "ies adesea mai ieftin",
+      "decât rezervate separat.",
+      "Caută din timp",
+      "și fii flexibil cu datele.",
+      "Sejururi la soare",
+      "pe 4travel.pro"
+    ],
+    "cap_hl": ["mai ieftin", "flexibil"],
+    "end_top": "Sejururi zbor + hotel",
+    "site": "4travel.pro",
+    "clips": [
+      {"f": "beachwaves", "ss": 1.0, "d": 2.6},
+      {"f": "beachsunset", "ss": 4.0, "d": 2.6},
+      {"f": "resort", "ss": 10.0, "d": 2.6},
+      {"f": "beachresort", "ss": 2.0, "d": 2.6},
+      {"f": "planesky", "ss": 9.0, "d": 2.4},
+      {"f": "booking", "ss": 30.0, "d": 2.6},
+      {"f": "planewin2", "ss": 18.0, "d": 2.6}
+    ]
+  }
+]

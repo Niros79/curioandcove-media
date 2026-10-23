@@ -1,0 +1,5 @@
+tools/reels/kokoro.onnx
+tools/reels/voices.bin
+tools/reels/footage/
+tools/reels/out/
+__pycache__/

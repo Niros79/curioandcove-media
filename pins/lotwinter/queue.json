@@ -23,7 +23,8 @@
     "description": "Tickets to a museum, zoo, show or attraction are the gift people still talk about years later. Book instant mobile tickets and wrap a simple voucher. (Affiliate link) #christmasgifts #experiencegifts #familygifts #giftideas",
     "link": "https://tiqets.tpm.lv/iUScXcHE",
     "alt": "Wrapped presents under a Christmas tree",
-    "status": "pending"
+    "status": "error",
+    "error": "Pinterest 429: Sorry! We blocked this link because it may lead to spam. (link https://tiqets.tpm.lv/iUScXcHE)"
   },
   {
     "n": 3,

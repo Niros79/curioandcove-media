@@ -32,3 +32,4 @@
 - Quora (25 oct, toate rafturile, nu travel): https://www.quora.com/Can-changing-your-bedtime-routine-really-improve-sleep-quality/answer/Curio-and-Cove (CU link → /evening-routine-for-better-sleep/) · https://www.quora.com/What-is-a-low-cost-hobby-for-a-senior-man-that-wont-break-the-bank/answer/Curio-and-Cove (fără link)
 - Medium (25 oct, fără link, clap): „There's Still Growth in a Dead Situation” (BotanicGrowBliss, ierburi) · „How to Build a Garden Journal…” (Mitch, Open Microphone)
 - Logare corectă: Quora + Medium Curio and Cove = hello@curioandcove.com (mailuri în niros.link; Medium = cod pe email). În Chrome era logat contul personal „Sorin” → verifică mereu numele din meniul de cont.
+- r/GiftIdeas "Christmas gift ideas for my husband who needs a hobby" – comentariu fără link (Love & Family), 25 oct ~21:35: https://www.reddit.com/r/GiftIdeas/comments/1xf62ea/title_christmas_gift_ideas_for_my_husband_40m_who/19rnavc2ngiyq/

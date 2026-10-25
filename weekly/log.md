@@ -29,3 +29,6 @@
 - r/sleep "How to fall asleep early" – comentariu fără link (Mind & Spirit): https://www.reddit.com/r/sleep/comments/1xey3st/how_to_fall_asleep_early/19rn45u9paqrp/
 - Programate: r/GiftIdeas (husband hobby, fără link) ~21:35; r/Hobbies (identity hobby, CU link la /winter-hobbies-to-try/) ~00:05. Sorin: „pune și linkuri” → „cum consideri” → link doar într-un comentariu din 3.
 - Quora + Medium: delogate în Chrome pe 25 oct → așteaptă logarea lui Sorin.
+- Quora (25 oct, toate rafturile, nu travel): https://www.quora.com/Can-changing-your-bedtime-routine-really-improve-sleep-quality/answer/Curio-and-Cove (CU link → /evening-routine-for-better-sleep/) · https://www.quora.com/What-is-a-low-cost-hobby-for-a-senior-man-that-wont-break-the-bank/answer/Curio-and-Cove (fără link)
+- Medium (25 oct, fără link, clap): „There's Still Growth in a Dead Situation” (BotanicGrowBliss, ierburi) · „How to Build a Garden Journal…” (Mitch, Open Microphone)
+- Logare corectă: Quora + Medium Curio and Cove = hello@curioandcove.com (mailuri în niros.link; Medium = cod pe email). În Chrome era logat contul personal „Sorin” → verifică mereu numele din meniul de cont.

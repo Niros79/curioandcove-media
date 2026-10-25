@@ -142,7 +142,17 @@ def build(spec):
     total = t + endcard
     voice = np.concatenate(audio + [np.zeros(int(endcard * SR))])
     sf.write(f"{out}/voice.wav", voice, SR)
-    music(total + 0.5, spec.get("root", 57), f"{out}/music.wav", bpm=spec.get("bpm", 118), seed=spec.get("seed", 0))
+    if spec.get("music_file"):
+        mstart = spec.get("music_start", 0)
+        mdur = total + 0.5
+        fade_dur = min(1.2, mdur * 0.1)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(mstart), "-t", f"{mdur:.3f}",
+                        "-i", spec["music_file"], "-af",
+                        f"afade=t=in:st=0:d=0.3,afade=t=out:st={mdur - fade_dur:.3f}:d={fade_dur:.3f},"
+                        f"loudnorm=I=-20:TP=-2:LRA=7",
+                        "-ar", str(SR), "-ac", "2", f"{out}/music.wav"], check=True)
+    else:
+        music(total + 0.5, spec.get("root", 57), f"{out}/music.wav", bpm=spec.get("bpm", 118), seed=spec.get("seed", 0))
     # --- b-roll timeline
     segs, cur, i = [], 0.0, 0
     clips = spec["clips"]

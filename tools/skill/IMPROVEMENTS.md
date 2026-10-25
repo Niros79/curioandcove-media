@@ -44,3 +44,10 @@ Se adaugă după fiecare sesiune (dată – ce a mers prost, soluția, decizii n
 - Homepage: articol principal cu poză + „Fresh this week”, banda verde „Browse the shelves” (6 poze), „Latest guides” (prima <ul class="cards"> = unde newpage.py inserează articole noi), banda checklist #newsletter.
 - Poze: assets/img/<slug>.jpg (1600px, poza mare din articol + og:image) și assets/img/sm/<slug>.jpg (800px, carduri); rafturi: shelf-<travel|money|home|love|mind|crafts>.jpg. Sursă: Pexels (images.pexels.com permis din 22 oct); ID-uri găsite cu WebSearch site pexels.com.
 - REGULĂ: după orice pagină nouă: pune poza (assets/img/<slug>.jpg + sm/) și rulează `python3 tools/site/decorate.py site/public` (adaugă poza în carduri, hero în articol, og:image, CTA în antet). Idempotent.
+
+## 2026-10-25 – afiliere, Quora/Medium, linkuri moarte
+- CloudTraffic: ofertele marcate „[DUPLICATED]” au „Get Link” dar redirecționează la http://test.test/ (morți). Pe 22 oct am pus din greșeală Happy Planner 2942 și Learning with Experts 2954 → înlocuite pe 25 oct cu linkuri simple spre brand; cerute ofertele reale 2329 / 2031 (+ Preply 2824). REGULĂ: testează orice link CloudTraffic în browser înainte să-l pui pe site (trebuie să ajungă pe site-ul brandului).
+- Digistore24: „Promote now” dă direct promolinkul (#aff=SorinSerban) dacă vânzătorul acceptă automat; citește-l din input-ul din dialog. Adăugate The 5-Minute Garden + The 5 Foot Farm în /indoor-winter-garden/ (doar site).
+- Logare Quora/Medium: conturile Curio and Cove = hello@curioandcove.com (mailuri în niros.link, accesibil prin Composio gmail alias „niros”). În Chrome poate fi logat contul personal „Sorin” → verifică numele din meniul de cont înainte de postare. Medium = cod pe email.
+- Extensia NU are voie pe dash.partnerstack.com; CJ: folosește members.cj.com → link „Review Pending Applications” (vechiul URL advertisers.do dă 403); screenshot interzis pe CJ, dar get_page_text merge.
+- Sorin (25 oct): Travel E un raft Curio – include-l în rundele Quora/Reddit/Medium, doar să nu fie singurul. Linkuri pe Reddit: „cum consideri” → max 1 din 3 comentarii cu link spre articol (cont nou).

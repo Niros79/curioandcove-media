@@ -24,3 +24,8 @@
 - Medium response: "Mistakes We Made When Planning Our Bermuda Trip" (Kua Lina, Young Again) – Sunday arrival tip, fără link. Clap.
 - 20 oct 22:5x – Medium: răspuns la Kua Lina (reply la comentariul nostru Bermuda, care are 10 claps). Fără link.
 - 21 oct: programate în Metricool 6 reels cinematice (Pexels): Curio EN 24/27/29 oct (IG+YT+Threads+Bluesky), 4travel RO 25/28/31 oct (IG+TikTok). Bitly per clip: c1 4eMtn51 (→ screen-free, nu herb article – Backyard interzis pe social), t1 47yi9NC, c2 3WCvFNQ, t2 4yWFYe5, c3 4ytoWmJ, t3 4sj7wI6. Manual: reels/2026-10/cine/postare-manuala.txt.
+
+## 2026-10-25 – Reddit (u/CurioandCove)
+- r/sleep "How to fall asleep early" – comentariu fără link (Mind & Spirit): https://www.reddit.com/r/sleep/comments/1xey3st/how_to_fall_asleep_early/19rn45u9paqrp/
+- Programate: r/GiftIdeas (husband hobby, fără link) ~21:35; r/Hobbies (identity hobby, CU link la /winter-hobbies-to-try/) ~00:05. Sorin: „pune și linkuri” → „cum consideri” → link doar într-un comentariu din 3.
+- Quora + Medium: delogate în Chrome pe 25 oct → așteaptă logarea lui Sorin.

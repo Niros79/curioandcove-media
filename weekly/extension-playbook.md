@@ -44,6 +44,14 @@ KEYWORDS → MY GUIDES
 - how to read a birth chart, Sun Moon Rising → https://curioandcove.com/how-to-read-your-birth-chart/
 - crochet for beginners → https://curioandcove.com/crochet-for-beginners/
 - indoor herb garden → https://curioandcove.com/windowsill-medicinal-herb-garden/
+- Airalo alternatives, Saily vs Yesim vs GigSky → https://curioandcove.com/airalo-alternatives-travel-esim/
+- sell digital products, Etsy/Gumroad printables, ebook side hustle → https://curioandcove.com/how-to-sell-digital-products/
+- cheap winter city breaks, where to go in Europe in winter → https://curioandcove.com/cheap-winter-city-breaks-europe/
+- paid newsletter, Substack/beehiiv subscriptions, monetize a newsletter → https://curioandcove.com/how-to-start-a-paid-newsletter/
+- indoor winter garden, grow vegetables/herbs inside in winter → https://curioandcove.com/indoor-winter-garden/
+- Christmas gift ideas for family, gifts for parents/kids/grandparents → https://curioandcove.com/christmas-gift-ideas-for-family/
+- evening routine, better sleep, bedtime routine → https://curioandcove.com/evening-routine-for-better-sleep/
+- winter hobbies, hobbies to try at home, cosy hobbies → https://curioandcove.com/winter-hobbies-to-try/
 
 FINISH: give me a short report: the 2 Quora question titles + my answer URLs, which one had the link, and the 2 Medium stories I responded to.
 ```

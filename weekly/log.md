@@ -3,6 +3,7 @@
 ## Medium – imported
 - 2026-10-17: /how-to-find-cheap-flights/ (tags: Travel, Travel Tips, Budget Travel, Cheap Flights, Travel Hacks)
 - 2026-10-20: /nordvpn-vs-surfshark-travel/ PUBLISHED https://medium.com/@hello_27834/nordvpn-vs-surfshark-for-travel-2026-which-vpn-should-you-pick-c2e4072e7e07 (tags: VPN, Cybersecurity, Travel Tips, Travel, Online Privacy) – pack: weekly/2026-10-19-pack.md
+- 2026-10-26: /best-esim-for-travel/ QUEUED (tags: eSIM, Travel Tips, Travel, Travel Technology, Digital Nomads) – pack: weekly/2026-10-26-pack.md
 - cheap flights story: https://medium.com/@hello_27834/how-to-find-cheap-flights-from-anywhere-7-habits-that-actually-work-curio-cove-d7a139737c49 (title fixed 2026-10-20)
 
 ## Quora – answered

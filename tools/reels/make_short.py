@@ -183,7 +183,7 @@ def build(spec):
     ov.append((f"{out}/hook.png", 0, hook_end))
     for k, (a, b, ch) in enumerate(cues):
         p = f"{out}/cap{k:02d}.png"
-        text_png(p, ch, 84, 1360, (255, 255, 255, 255), (0, 0, 0, 150), highlight=spec.get("cap_hl"), maxw=880, font=BLACK, pad=22)
+        text_png(p, ch, spec.get("cap_size", 84), spec.get("cap_y", 1360), (255, 255, 255, 255), (0, 0, 0, 150), highlight=spec.get("cap_hl"), maxw=spec.get("cap_maxw", 880), font=BLACK, pad=22)
         ov.append((p, a, b + 0.08))
     text_png(f"{out}/end1.png", spec.get("end_top", "Full guide"), 80, 800, (255, 255, 255, 255), (0, 0, 0, 205))
     text_png(f"{out}/end2.png", spec.get("site", "curioandcove.com"), 92, 960, (20, 20, 20, 255), (255, 214, 64, 255))

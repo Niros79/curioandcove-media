@@ -45,3 +45,12 @@ Free claim guide here 👉 https://bit.ly/3UV1AZu
 
 --------------------------------------------------------
 Fiecare platforma are linkul ei Bitly, ca sa vedem separat cate click-uri vin din YouTube, TikTok si Facebook.
+
+========================================================
+VARIANTA v2 (VIRAL), 25 s: fișierele ...-v2-VIRAL-...mp4
+========================================================
+Aceleași titluri, descrieri și linkuri ca mai sus. Diferențe:
+- clipul nu are card de final (se reia singur), deci linkul e DOAR în descriere și în comentariul fixat;
+- adaugă în comentariul fixat și întrebarea pentru comentarii:
+  "Did an airline ever offer you a voucher instead of cash? What did you do?"
+Test: postează v1 și v2 la 2-3 zile distanță și compară în YouTube Studio "Viewed vs. swiped away" și durata medie.

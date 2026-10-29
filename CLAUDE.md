@@ -1,6 +1,7 @@
 # CLAUDE.md – Curio & Cove + 4Travel Pro (stare la 29 oct 2026, 23:15)
 
 Citește fișierul ăsta la începutul fiecărei sesiuni. Sursa detaliată a deciziilor mai vechi: documentul de proiect `claude/REGULI-SI-DECIZII.md`.
+Arhiva tuturor conversațiilor proiectului (lista cu linkuri + textul sesiunii din 29 oct): documentul privat de proiect `claude/arhiva-conversatii.md`, nu în acest repo public.
 Sorin (Constanța) scrie în română; răspunsuri scurte, pas cu pas; lucrează, nu pune întrebări inutile.
 
 ## 1. Cele două site-uri (identitate separată)

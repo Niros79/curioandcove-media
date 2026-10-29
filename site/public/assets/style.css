@@ -218,3 +218,35 @@ section{max-width:var(--wrap);margin:0 auto}
 .card a,.feature,.fresh a{box-shadow:0 2px 6px rgba(60,45,20,.08),0 1px 1px rgba(60,45,20,.05)}
 .post-hero img,.cat-photo{box-shadow:0 18px 40px rgba(60,45,20,.18)}
 .band{margin-top:2.5rem}
+
+/* compact home (Oct 29, 2026) */
+.home-hero{padding:1.4rem 0 .8rem;gap:1.6rem}
+.feature img{aspect-ratio:2/1}
+.feature-body{padding:1.1rem 1.4rem 1.3rem;gap:.45rem}
+.feature h1{font-size:clamp(1.5rem,2.8vw,2.15rem)}
+.feature p{font-size:1rem}
+.fresh-col h2{font-size:1.45rem;margin:0 0 .7rem}
+.fresh{gap:.6rem}
+.fresh img{width:72px;height:72px}
+.fresh .f-title{font-size:1.02rem}
+.shelves-sec{margin-top:1.6rem;margin-bottom:1.6rem;padding-top:2rem;padding-bottom:2rem}
+.shelves a{height:190px}
+.latest{padding:1.2rem 0 2.2rem}
+.lfilter{display:flex;gap:.45rem;overflow-x:auto;margin:0 0 1.1rem;padding-bottom:.2rem;scrollbar-width:none}
+.lfilter button{flex:none;border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:.45rem .95rem;font:600 .9rem var(--sans);cursor:pointer}
+.lfilter button[aria-pressed="true"]{background:var(--forest);border-color:var(--forest);color:#fff}
+.cards li.is-hidden{display:none}
+.more-wrap{text-align:center;margin-top:1.4rem}
+.more-btn{border:2px solid var(--forest);background:transparent;color:var(--forest);border-radius:999px;padding:.65rem 1.4rem;font:700 .95rem var(--sans);cursor:pointer}
+.more-btn:hover{background:var(--forest);color:#fff}
+@media (max-width:600px){
+  .shelves{display:grid;grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:44%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.3rem}
+  .shelves li{scroll-snap-align:start}.shelves a{height:170px}
+  .latest .cards{grid-template-columns:1fr;gap:.8rem}
+  .latest .card a{display:grid;grid-template-columns:112px 1fr;grid-template-rows:auto auto 1fr;column-gap:.9rem}
+  .latest .card-img{grid-row:1 / span 3;width:112px;height:100%;min-height:112px;aspect-ratio:auto;object-fit:cover}
+  .latest .card-cat{padding:.7rem .8rem 0 0}
+  .latest .card-title{padding:.2rem .8rem .7rem 0;font-size:1.02rem}
+  .latest .card-excerpt,.latest .card-meta{display:none}
+}
+.band{max-width:none}

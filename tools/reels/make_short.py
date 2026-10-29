@@ -202,7 +202,7 @@ def build(spec):
               "[va][ma]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.2:LRA=9[a]")
     final = os.path.join(BASE, "out", f"{name}.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fc),
-                    "-map", f"[{last}]", "-map", "[a]", "-t", f"{total:.3f}", "-c:v", "libx264", "-preset", "medium",
+                    "-map", f"[{last}]", "-map", "[a]", "-t", f"{total:.3f}", "-c:v", "libx264", "-preset", "veryfast",
                     "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", final],
                    check=True)
     print(name, round(total, 1), "s")

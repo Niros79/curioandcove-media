@@ -1,0 +1,63 @@
+[
+  {
+    "name": "curio-sleep-winddown-test",
+    "hook": "Your phone is wrecking your sleep",
+    "hook_hl": ["sleep"],
+    "root": 53,
+    "voice": "am_michael",
+    "speed": 1.0,
+    "chunks": [
+      "A sixty-minute wind-down can actually fix that.",
+      "Dim the lights an hour before bed.",
+      "Swap your phone for a few pages of a book.",
+      "Keep the room on the cooler side.",
+      "Going to bed at the same time each night trains your body clock.",
+      "Full routine on Curio and Cove."
+    ],
+    "cap_hl": ["Dim the lights", "Swap your phone", "cooler side", "same time"],
+    "end_top": "Full evening wind-down routine",
+    "site": "curioandcove.com",
+    "clips": [
+      {"f": "lamp", "ss": 1.0, "d": 3.0},
+      {"f": "candle", "ss": 2.0, "d": 3.0},
+      {"f": "tea", "ss": 0.5, "d": 3.0},
+      {"f": "cozy", "ss": 3.0, "d": 3.0},
+      {"f": "alarm", "ss": 0.5, "d": 3.0},
+      {"f": "curtains", "ss": 1.0, "d": 3.0}
+    ],
+    "bpm": 100,
+    "seed": 4,
+    "music_file": "/home/claude/niros79/curioandcove-media/tools/reels/music/curio-calm.mp3",
+    "music_start": 6
+  },
+  {
+    "name": "4travel-intro-test",
+    "hook": "One site for your whole trip",
+    "hook_hl": ["whole trip"],
+    "root": 58,
+    "voice": "am_michael",
+    "speed": 1.0,
+    "chunks": [
+      "One site covers your whole trip.",
+      "Flights, hotels, transfers, and eSIM, all in one search.",
+      "Compare real prices before you book.",
+      "No extra fees added by us, you book direct with the provider.",
+      "Start planning on 4travel dot pro."
+    ],
+    "cap_hl": ["one search", "no extra fees", "book direct"],
+    "end_top": "Plan your whole trip",
+    "site": "4travel.pro",
+    "clips": [
+      {"f": "plane", "ss": 1.0, "d": 3.2},
+      {"f": "airport", "ss": 2.0, "d": 3.2},
+      {"f": "phonebook", "ss": 1.0, "d": 3.0},
+      {"f": "suitcase", "ss": 1.0, "d": 3.2},
+      {"f": "passport", "ss": 1.0, "d": 3.2},
+      {"f": "hotel", "ss": 1.0, "d": 3.2}
+    ],
+    "bpm": 118,
+    "seed": 5,
+    "music_file": "/home/claude/niros79/curioandcove-media/tools/reels/music/4travel-energetic.mp3",
+    "music_start": 4
+  }
+]
